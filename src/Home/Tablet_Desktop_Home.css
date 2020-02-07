@@ -1,0 +1,29 @@
+/* Tablet  and Desktop Styling */
+
+@media only screen and (min-width: 768px) {
+
+.title {
+    font-size: 140px;
+    margin-bottom: 35px;
+}
+
+.headline {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.buttonClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.button {
+    width: 50%;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+}
