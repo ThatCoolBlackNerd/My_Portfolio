@@ -1,7 +1,7 @@
 const Page =  [
         {
             "title": "NBA Quiz",
-            "screenshot": "./QuizImages/quizQuestion.PNG",
+            "screenshot": "/img/quizQuestion.PNG",
             "alt": "NBA Quiz Screenshot",
             "code": "https://github.com/ThatCoolBlackNerd/NBA-Quiz.git",
             "page": "https://thatcoolblacknerd.github.io/NBA-Quiz/",

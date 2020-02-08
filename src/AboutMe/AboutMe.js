@@ -25,18 +25,18 @@ class AboutMe extends Component {
                     </p>
                     <p className='contactMe'>Contact Me:</p><br /><br />
                         <div class="socialIcon">
-                            <Link to='mailto:bmcarr21@me.com'>
-                                <img src={email} class="img mail" /> 
-                            </Link>
-                            <Link to="https://www.linkedin.com/in/brandoncarr21/" target="_blank">
-                                <img src={linkedin} class="img linked" />
-                            </Link>
-                            <Link to="https://github.com/ThatCoolBlackNerd" target="_blank">
-                                <img src={github} class="img git" />
-                            </Link>
-                            <Link to="https://twitter.com/thatcoolblknerd" target="_blank">
-                                <img src={twitter} class="img twitter" />
-                            </Link>
+                            <a href='mailto:bmcarr21@me.com'>
+                                <img src={email} class="img mail" alt='email' /> 
+                            </a>
+                            <a href="https://www.linkedin.com/in/brandoncarr21/" target="_blank" rel="noopener noreferrer">
+                                <img src={linkedin} class="img linked" alt='linkedin' />
+                            </a>
+                            <a href="https://github.com/ThatCoolBlackNerd" target="_blank" rel="noopener noreferrer">
+                                <img src={github} class="img git" alt='github' />
+                            </a>
+                            <a href="https://twitter.com/thatcoolblknerd" target="_blank" rel="noopener noreferrer">
+                                <img src={twitter} class="img twitter" alt='twitter' />
+                            </a>
                         </div>
                 </div>
                 <div class="buttonClass">

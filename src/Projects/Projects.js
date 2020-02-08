@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './Tablet_Desktop_Projects.css';
+import './Projects.css';
 
 class Projects extends Component {
     render() {
@@ -15,12 +15,12 @@ class Projects extends Component {
                         />
                     </div>
                     <span className='link'>
-                        <Link to={this.props.code}>
+                        <a href={this.props.code} target="_blank" rel="noopener noreferrer">
                             View Code |
-                        </Link>
-                        <Link to={this.props.page}>
+                        </a>
+                        <a href={this.props.page} target="_blank" rel="noopener noreferrer">
                             View Project
-                        </Link>
+                        </a>
                     </span>
                     <p className="skills">
                         `Technologies used - {this.props.skills}`
