@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #00223e;
+  background: whitesmoke;
+}
+
 body {
   margin: 0;
   padding: 0;

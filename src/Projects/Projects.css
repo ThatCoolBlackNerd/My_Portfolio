@@ -1,0 +1,32 @@
+.projectTitle {
+    font-size: 35px;
+    margin-top: -30px;
+}
+
+.projectScreenshot {
+    height:50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Img {
+    height: 90%;
+    width: 85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #00223e;
+
+}
+
+.link {
+    margin-top:-5px;
+}
+
+.description {
+    padding: 15px;
+}

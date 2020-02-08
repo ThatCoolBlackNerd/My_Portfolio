@@ -1,4 +1,8 @@
 import React from 'react';
+import Route from 'react-router-dom';
+import ProjectList from './Projects/ProjectList';
+import Home from './Home/Home';
+import AboutMe from './AboutMe/AboutMe';
 
 function App() {
   return (

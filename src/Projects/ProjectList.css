@@ -15,12 +15,9 @@
     color: #008fb5;
 }
 
-.headline {
-    margin-top: -50px;
-    margin-bottom: 65px;
-    width: 100%;
-    font-size: 18px;
-    text-align: center;
+.projectTitle {
+    font-size: 35px;
+    margin-top: -30px;
 }
 
 .buttonClass {
