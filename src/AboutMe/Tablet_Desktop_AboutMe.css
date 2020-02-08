@@ -1,0 +1,42 @@
+@media only screen and (min-width: 768px) {
+
+.title {
+    font-size: 140px;
+    margin-bottom: 35px;
+}
+    
+.aboutMe {
+    margin-top: -10px;
+}
+
+.buttonClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.button {
+    width: 50%;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.bioText {
+    font-size: 20px;
+    height: 60%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+.pgraph {
+    font-size: 20px;
+}
+
+.contactMe {
+    font-size: 20px;
+}
+
+}

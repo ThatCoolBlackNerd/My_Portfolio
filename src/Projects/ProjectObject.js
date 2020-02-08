@@ -1,4 +1,4 @@
-import QuizImg from './QuizImages/quizQuestion.png';
+import QuizImg from './QuizImages/quizQuestion.PNG';
 
 const Page =  [
         {

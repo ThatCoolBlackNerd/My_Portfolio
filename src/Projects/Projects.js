@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Link from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Tablet_Desktop_Projects.css';
 
 class Projects extends Component {
@@ -23,7 +23,7 @@ class Projects extends Component {
                         </Link>
                     </span>
                     <p className="skills">
-                        `Technologies used - ${this.props.skills}`
+                        `Technologies used - {this.props.skills}`
                     </p>
                     <h5>Project Description</h5>
                     <p className="description">

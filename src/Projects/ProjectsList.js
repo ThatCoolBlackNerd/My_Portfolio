@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Link from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Page from './ProjectObject';
+import Projects from './Projects';
 import './Tablet_Desktop_Projects.css';
 
 class ProjectsList extends Component {

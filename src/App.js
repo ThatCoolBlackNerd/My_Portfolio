@@ -1,6 +1,6 @@
 import React from 'react';
-import Route from 'react-router-dom';
-import ProjectList from './Projects/ProjectList';
+import { Route } from 'react-router-dom';
+import ProjectsList from './Projects/ProjectsList';
 import Home from './Home/Home';
 import AboutMe from './AboutMe/AboutMe';
 
@@ -15,7 +15,7 @@ function App() {
       <Route
          exact
         path="/Projects"
-        component={ProjectList}
+        component={ProjectsList}
       />
       <Route
         exact
