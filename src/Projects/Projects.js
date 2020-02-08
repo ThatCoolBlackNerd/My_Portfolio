@@ -5,7 +5,7 @@ import './Projects.css';
 class Projects extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h3 className='projectTitle'>{this.props.title}</h3>
                     <div className='projectScreenshot'>
                         <img 
@@ -14,18 +14,19 @@ class Projects extends Component {
                         className='Img' 
                         />
                     </div>
+                    <div className='links'>
                     <span className='link'>
                         <a href={this.props.code} target="_blank" rel="noopener noreferrer">
-                            View Code |
+                            View Code {' '} |
                         </a>
                         <a href={this.props.page} target="_blank" rel="noopener noreferrer">
-                            View Project
+                        {' '} View Project
                         </a>
                     </span>
+                    </div>
                     <p className="skills">
-                        `Technologies used - {this.props.skills}`
+                        Technologies used - {this.props.skills}
                     </p>
-                    <h5>Project Description</h5>
                     <p className="description">
                         {this.props.description}
                     </p>

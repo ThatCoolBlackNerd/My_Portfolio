@@ -1,3 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 .projectTitle {
     font-size: 35px;
     margin-top: -30px;
@@ -15,9 +23,14 @@
     
 }
 
+.description {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
 .Img {
-    height: 90%;
-    width: 85%;
+    height: 70%;
+    width: 65%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -27,6 +40,14 @@
 
 .link {
     margin-top:-5px;
+}
+
+.skills {
+    font-weight: bold;
+}
+
+.links {
+    margin-top: 7px;
 }
 
 .description {
