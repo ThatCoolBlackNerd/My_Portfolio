@@ -1,9 +1,7 @@
-import QuizImg from './QuizImages/quizQuestion.PNG';
-
 const Page =  [
         {
             "title": "NBA Quiz",
-            "screenshot": {QuizImg},
+            "screenshot": "./QuizImages/quizQuestion.PNG",
             "alt": "NBA Quiz Screenshot",
             "code": "https://github.com/ThatCoolBlackNerd/NBA-Quiz.git",
             "page": "https://thatcoolblacknerd.github.io/NBA-Quiz/",

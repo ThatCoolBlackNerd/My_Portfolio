@@ -13,7 +13,7 @@ class ProjectsList extends Component {
                 {Page.map((project,idx) =>
                     <div key={idx}>
                         <Projects
-                            title={project.tite}
+                            title={project.title}
                             screenshot={project.screenshot}
                             alt={project.alt}
                             code={project.code}
