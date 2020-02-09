@@ -40,15 +40,11 @@ class AboutMe extends Component {
                         </div>
                 </div>
                 <div class="buttonClass">
-                <Link to="/"> 
-                    <button class="button home">
-                        Home
-                    </button> 
+                <Link to="/" className='button'> 
+                        Home 
                 </Link> 
-                <Link to="/Projects">
-                    <button class="button projects">
+                <Link to="/Projects" className='button'>
                         Projects
-                    </button>
                 </Link>
                 </div>
             </div>

@@ -10,15 +10,11 @@ class Home extends Component {
                <h1 className="title">Hello!!</h1>
                <h2 className="headline">I'm Brandon. I am a Fullstack Developer & Project Manager</h2>
                     <div className="buttonClass">
-                        <Link to='/AboutMe'>
-                            <button className="button">
+                        <Link to='/AboutMe' className='button'>
                             About Me
-                            </button>
                         </Link>
-                        <Link to='/Projects'>
-                            <button className="button">
+                        <Link to='/Projects' className='button'>
                                 Projects
-                            </button>
                         </Link> 
                     </div>
             </div>

@@ -23,15 +23,11 @@ class ProjectsList extends Component {
                         />
                     </div>)}
                     <div className="buttonClass">
-                        <Link to='/'>
-                            <button className='button'>
+                        <Link to='/' className='button'>
                                 Home
-                            </button>
                         </Link>
-                        <Link to='/AboutMe'>
-                            <button className='button'>
+                        <Link to='/AboutMe' className='button'>
                                 About Me
-                            </button>
                         </Link>
                     </div>
             </div>
