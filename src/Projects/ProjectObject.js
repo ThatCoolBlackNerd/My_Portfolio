@@ -1,7 +1,7 @@
 const Page =  [
         {
             "title": "NBA Quiz",
-            "screenshot": "/img/quizQuestion.PNG",
+            "screenshot": "img/quizQuestion.PNG",
             "alt": "NBA Quiz Screenshot",
             "code": "https://github.com/ThatCoolBlackNerd/NBA-Quiz.git",
             "page": "https://thatcoolblacknerd.github.io/NBA-Quiz/",
@@ -10,7 +10,7 @@ const Page =  [
         },
         {
             "title": "Comic Book Combat",
-            "screenshot": "/img/cbc_img1.png",
+            "screenshot": "img/cbc_img1.png",
             "alt": "Character Selection Screen Screenshot",
             "code": "https://github.com/ThatCoolBlackNerd/Comic-Book-Combat.git",
             "page": "https://thatcoolblacknerd.github.io/Comic-Book-Combat/",
