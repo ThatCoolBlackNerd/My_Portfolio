@@ -9,12 +9,12 @@ const Page =  [
             "description":  "Are you a real NBA Fan? Test your basketball knowledge with this Web Quiz using JavaScript and JQuery. This app works on any platform, so you can take it at homeon your computer or on your phone to past time at a restaurant."
         },
         {
-            "title": "Comic Book Combat",
+            "title": "Comic Book Versus",
             "screenshot": "img/cbc_img1.png",
             "alt": "Character Selection Screen Screenshot",
-            "code": "https://github.com/ThatCoolBlackNerd/Comic-Book-Combat.git",
-            "page": "https://thatcoolblacknerd.github.io/Comic-Book-Combat/",
-            "skills": "HTML5, CSS3, JavaScript, JQuery",
+            "code": "https://github.com/ThatCoolBlackNerd/Versus",
+            "page": "https://versus-six.vercel.app/",
+            "skills": "HTML5, CSS3, JavaScript, React",
             "description":  "Super Heroes has become a big part of pop culture and people always argue about who would win in a fight between X character and Y character. This app gives people a reasonable answer to that question."
         }
     ]
